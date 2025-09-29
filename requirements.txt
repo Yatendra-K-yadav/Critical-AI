@@ -1,0 +1,14 @@
+torch
+torchvision
+timm
+pydicom
+SimpleITK
+monai
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+opencv-python
+Pillow
+cd "d:\New folder\Critical-AI"
