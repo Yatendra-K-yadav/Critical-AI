@@ -1,0 +1,22 @@
+{
+    "split": "val",
+    "total_loaded": 574,
+    "corrupted_files": 0,
+    "rejected_files": [],
+    "preprocessing_params": {
+        "target_size": [
+            224,
+            224
+        ],
+        "normalize": true,
+        "apply_clahe": true,
+        "clahe_clip_limit": 2.0,
+        "clahe_tile_grid_size": [
+            8,
+            8
+        ],
+        "dataset_mean": null,
+        "dataset_std": null
+    },
+    "bad_files": []
+}

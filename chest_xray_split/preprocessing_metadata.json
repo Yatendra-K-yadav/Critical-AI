@@ -1,0 +1,54 @@
+{
+    "preprocessing_date": "2025-10-05",
+    "preprocessing_params": {
+        "target_size": [
+            224,
+            224
+        ],
+        "normalization": "dataset-specific Z-score",
+        "clahe_applied": true,
+        "clahe_clip_limit": 2.0,
+        "clahe_tile_grid_size": [
+            8,
+            8
+        ]
+    },
+    "dataset_statistics": {
+        "train_mean": 124.16891212197356,
+        "train_std": NaN
+    },
+    "shapes": {
+        "x_train": [
+            4595,
+            224,
+            224,
+            1
+        ],
+        "x_val": [
+            574,
+            224,
+            224,
+            1
+        ],
+        "x_test": [
+            576,
+            224,
+            224,
+            1
+        ]
+    },
+    "class_distribution": {
+        "train": {
+            "NORMAL": 1266,
+            "PNEUMONIA": 3329
+        },
+        "val": {
+            "NORMAL": 158,
+            "PNEUMONIA": 416
+        },
+        "test": {
+            "NORMAL": 159,
+            "PNEUMONIA": 417
+        }
+    }
+}
